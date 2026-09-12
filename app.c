@@ -1,7 +1,7 @@
-#include <stdio.h> # Importamos la librería (o header) "stdio.h" para manejar el I/O (Input y Output) del programa.
-#include <stdbool.h> # Importamos la librería (o header) "stdbool.h" para tener a nuestra disposición el tipo de dato booleans (o bool) que usaremos más adelante para manejar el estado del event loop del juego.
-#include <SDL2/SDL.h> # Importamos la librería (o header) "SDL2/SDL.h" para manejar el I/O (Input y Output) de multimedia y comunicarse con el OS usar el hardware indirectamente.
-#include <GLES3/gl3.h> # Importamos la librería (o header) "GLES3/gl3.h" (u OpenGL ES 3.0) que ofrece una API gráfica para enviar datos a la GPU mediante SDL2 y usar la GPU para dibujar y renderizar en la pantalla.
+#include <stdio.h> // Importamos la librería (o header) "stdio.h" para manejar el I/O (Input y Output) del programa.
+#include <stdbool.h> // Importamos la librería (o header) "stdbool.h" para tener a nuestra disposición el tipo de dato booleans (o bool) que usaremos más adelante para manejar el estado del event loop del juego.
+#include <SDL2/SDL.h> // Importamos la librería (o header) "SDL2/SDL.h" para manejar el I/O (Input y Output) de multimedia y comunicarse con el OS usar el hardware indirectamente.
+#include <GLES3/gl3.h> // Importamos la librería (o header) "GLES3/gl3.h" (u OpenGL ES 3.0) que ofrece una API gráfica para enviar datos a la GPU mediante SDL2 y usar la GPU para dibujar y renderizar en la pantalla.
 
 int main() {
 	const int WIDTH_WINDOW = 632;
